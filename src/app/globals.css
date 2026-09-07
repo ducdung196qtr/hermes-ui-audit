@@ -42,7 +42,7 @@ button:focus-visible, input:focus-visible, a:focus-visible { outline: 3px solid 
 .primary-button:hover { background: var(--blue-strong); transform: translateY(-1px); }
 .primary-button:disabled { cursor: wait; opacity: .7; transform: none; }
 .form-error { margin: 10px 0 0; color: var(--red); font-size: 14px; }
-.privacy { display: flex; align-items: flex-start; gap: 8px; margin: 14px 0 0; max-width: 590px; color: var(--faint); font-size: 13px; line-height: 1.5; }
+.privacy { display: flex; align-items: flex-start; gap: 8px; margin: 14px 0 0; max-width: 590px; color: var(--muted); font-size: 13px; line-height: 1.5; }
 .hero-sheet { position: relative; padding: 18px; border: 1px solid var(--line); border-radius: 22px; background: linear-gradient(150deg,#fff,#edf4ff); box-shadow: var(--shadow); overflow: hidden; }
 .hero-sheet::before { position: absolute; inset: 0; content: ""; pointer-events: none; background: radial-gradient(circle at 82% 18%, rgb(21 94 239 / .13), transparent 34%), radial-gradient(circle at 10% 90%, rgb(21 94 239 / .08), transparent 28%); }
 .sheet-content { position: relative; padding: 20px; border-radius: 14px; background: rgb(255 255 255 / .92); border: 1px solid rgb(219 227 238 / .8); }

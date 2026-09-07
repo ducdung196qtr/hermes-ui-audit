@@ -15,3 +15,4 @@ __pycache__/
 # local browser/audit outputs are never committed
 screenshots/
 reports/
+.vercel
