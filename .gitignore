@@ -1,0 +1,14 @@
+node_modules
+.next
+.env
+.env.*
+!.env.example
+coverage
+data/
+artifacts/
+*.log
+.impeccable/review/
+
+# local browser/audit outputs are never committed
+screenshots/
+reports/
