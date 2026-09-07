@@ -7,6 +7,9 @@ coverage
 data/
 artifacts/
 *.log
+__pycache__/
+*.py[cod]
+*.tsbuildinfo
 .impeccable/review/
 
 # local browser/audit outputs are never committed
